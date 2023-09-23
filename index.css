@@ -1,0 +1,553 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("backgroundImage2.jpg");
+    background-color: #cccccc;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    padding-left: 30vh;
+    padding-right: 7vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+}
+
+.navbar {
+    margin-top: 4vh;
+    font-family: 'PT Serif', serif;
+    font-size: 2.5vh;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    padding-left: 3vh;
+    padding-right: 2.5vh;
+    color: #446EEF;
+}
+
+.navbar a:hover{
+    color: #2ADE7B;
+}
+
+.about_section {
+    width: 100%;
+    height: 28vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30vh;
+    padding-right: 20vh;
+}
+
+.about_logo {
+    width: 3vh;
+    height: 3vh;
+    margin-right: 60vh;
+    margin-left: 30vh;
+}
+
+.about {
+    width: 70vh;
+    height: 25vh;
+    margin-top: 5vh;
+    border-radius: 30%;
+    padding-top: 3.4vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    background-color: #585454;
+    color: white;
+    font-family: 'Mooli', sans-serif;
+    font-size: 2.2vh;
+    line-height: 3vh;
+}
+
+.stack_section {
+    width: 100%;
+    height: 33vh;
+    padding-left: 30vh;
+    padding-right: 20vh;
+}
+
+.stack {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-family: 'PT Serif', serif;
+    font-size: 3vh; 
+    line-height: 2vh;
+    padding-left: 75vh;
+    color: #446EEF;
+}
+
+.slider {
+    width: 80vh;
+    height: 35vh;
+    background-color: #a39898;
+    margin-left: 37vh;
+    margin-top: 1vh;
+}
+
+.slider_1{
+    width: 60vh;
+    height: 25vh;
+    background-color: #a39898;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 11vh;
+    position: relative;
+}
+
+
+.left_carousel {
+    height: 6vh;
+    width: 6vh;
+    border-radius: 50%;
+    background-color: aliceblue;
+    font-size: 4vh;
+    position: absolute;
+    margin-left: -10vh;
+    margin-top: 12vh;
+}
+
+.right_carousel {
+    height: 6vh;
+    width: 6vh;
+    border-radius: 50%;
+    background-color: aliceblue;
+    position: absolute;
+    font-size: 4vh;
+    margin-left: 62vh;
+    margin-right: 40vh;
+    margin-top: 12vh;
+}
+
+.content_1 {
+    margin-top: 10vh;
+    position: absolute;
+}
+
+.python {
+    width: 13vh;
+    height: 13vh;
+}
+
+.react {
+    width: 13vh;
+    height: 13vh;
+    margin-left: 30vh;
+}
+
+.javascript {
+    width: 13vh;
+    height: 13vh;
+}
+
+.node_js {
+    width: 15vh;
+    height: 13vh;
+    margin-left: 30vh;
+}
+
+.css {
+    width: 13vh;
+    height: 13vh;
+}
+
+.sql {
+    width: 13vh;
+    height: 13vh;
+    margin-left: 30vh;
+}
+
+.java {
+    width: 13vh;
+    height: 13vh;
+}
+
+.sql_repeated {
+    width: 13vh;
+    height: 13vh;
+    margin-left: 30vh;
+}
+
+.mongoDB {
+    width: 10vh;
+    height: 7vh;
+}
+
+/* services section */
+.service_section {
+    width: 100%;
+    height: 31vh;
+    background-color: white;
+    padding-left: 30vh;
+    padding-right: 10vh;
+}
+
+.services {
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    font-family: 'PT Serif', serif;
+    font-size: 3vh; 
+    color: #446EEF;
+}
+
+.services_description {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 2vh; 
+    line-height: 3vh;
+    display: flex;
+    justify-content: space-between;
+    border-right: 20vh;
+}
+
+.service_table {
+    width: 30vh;
+    height: 15vh;
+    background-image: url("BackgroundPhoto.jpg");
+}
+
+table, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+
+td {
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+
+/* Curriculum vitae */
+.cv_button {
+    margin-top: 1vh;
+    padding-top: 1.2vh;
+    padding-bottom: 1.2vh;
+    padding-left: 1.2vh;
+    padding-right: 1.2vh;
+    border-radius: 1vh;
+    border: 1px solid #ccc;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 2vh; 
+}
+
+.cv_button:hover {
+    background-color: #2ADE7B;
+    cursor: pointer;
+}
+
+footer {
+    height: 8vh;
+    padding-left: 100vh;
+    padding-top: 2vh;
+    background-color: #f3f3f3;
+    font-family: 'PT Serif', serif;
+    font-size: 2.5vh; 
+    color: #446EEF;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+    font-size: 2.5vh; 
+    color: #446EEF;
+}
+
+footer a:hover  {
+    color: #2ADE7B;
+}
+
+/* Button Section */
+.dot_box {
+    margin-left: 20vh;
+}
+.dots__dot {
+    border: none;
+    background-color: #b9b9b9;
+    opacity: 0.7;
+    height: 1rem;
+    width:  1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.0005s;
+    margin-right: 3vh;
+    margin-top: 25vh;
+}
+
+.dots__dot--active {
+    background-color: white;
+    opacity: 1;
+}
+
+/* Responsive Orientation */
+@media only screen and (max-width: 1400px) {
+    header {
+        padding-left: 5vh;
+    }
+
+    .about_section {
+        padding-left: 5vh;
+        padding-right: 20vh;
+    }
+
+    .stack_section {
+        padding-left: 5vh;
+        padding-right: 20vh;
+        height: 38vh;
+    }
+
+    .slider {
+        margin-left: 25vh;
+        margin-top: 1vh;
+    }
+
+    .stack {
+        padding-top: 4vh;
+        padding-left: 60vh;
+    }
+
+    .service_section {
+        padding-left: 5vh;
+    }
+
+    footer {
+        padding-left: 60vh;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .my_picture {
+        margin-left: 20vh;
+    }
+     .service_table_resp {
+        position: absolute;
+        margin-top: 15vh;
+    }
+    .service_table_resp2 {
+        position: absolute;
+        margin-top: 15vh;
+        margin-left: 40.3vh;
+    }
+
+    .service_section {
+        width: 100%;
+        height: 45vh;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .about_section {
+        width: 100%;
+        height: 63vh;
+        padding-right: -2vh;
+    }
+
+    .about {
+        width: 85vh;
+    }
+
+    .my_picture {
+        margin-left:-80vh;
+        margin-right: 10vh;
+        margin-top: 32vh;
+    } 
+
+    .stack {
+       padding-left: 2vh;
+    }
+
+    .slider {
+        margin-left: 2vh;
+    }
+
+    .service_section {
+        width: 100%;
+        height: 50vh;
+    }
+    .service_table_resp {
+        margin-top: 16vh;
+    }
+
+    .service_table_resp2 {
+        margin-top: 16vh;
+        margin-left: 26vh;
+    }
+
+    .cv_button {
+        margin-top: 19vh;
+    }
+    
+    footer {
+        padding-left: 5vh;
+    }
+}
+
+@media only screen and (max-width: 790px){
+    .stack_section {
+        display: none;
+    }
+
+    header {
+        padding-left: 1vh;
+        padding-right: 1vh;
+    }
+
+    .my_logo {
+        height: 8vh;
+        width: 8vh;
+    }
+
+    .about_section {
+        width: 100%;
+        height: 82vh;
+        padding-right: -2vh;
+    }
+
+    .my_picture {
+        margin-left:-40vh;
+        margin-right: 0vh;
+        margin-top: 1vh;
+        margin-bottom: 38vh;
+    } 
+
+    .about {
+        width: 40vh;
+        height: 35vh;
+        margin-top: 45vh;
+        padding-left: 3vh;
+    }
+
+    .about_logo {
+        margin-left: 15vh;
+    }
+
+    .service_section {
+        height: 66vh;
+    }
+
+    .ser_table {
+        margin-left: 2vh;
+    }
+
+    .ser_table1 {
+        position: absolute;
+        margin-top: 15vh;
+    }
+
+    .service_table_resp {
+        margin-top: 15vh;
+        margin-left: 23.6vh;
+    }
+
+    .service_table_resp2 {
+        margin-top: 30vh;
+        margin-left: 0.1vh;
+    }
+
+    .cv_button {
+        margin-top: 34vh;
+    }
+ 
+}
+
+@media only screen and (max-width: 377px) {
+    .my_logo {
+        margin-left: -2vh;
+    }
+
+    .my_picture {
+        margin-left: -42.5vh;
+    }
+    .navbar a {
+        padding-left: 1vh;
+    }
+
+    .about {
+       margin-left: -4.5vh;
+       width: 44vh;
+    }
+
+    .services {
+        margin-left: -4.5vh;
+    }
+
+    .services_description {
+    margin-left: -4.5vh;
+    }
+
+    .cv_button {
+        margin-left: -4.5vh;
+    }
+
+    footer {
+        margin-left: -4.5vh;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .navbar a {
+     padding-right: 0.5vh;
+    }
+
+    .about_section {
+        height: 86vh;
+    }
+
+    .my_picture {
+       margin-left: -39.5vh;
+       margin-bottom: 43vh;
+    }
+
+    .about {
+        width: 37vh;
+        height: 39.7vh;
+    }
+
+    .services {
+        margin-left: 2.3vh;
+    }
+
+    .service_section {
+        height: 95vh;
+    }
+
+    .ser_table0 {
+        margin-left: 7vh;
+    }
+
+    .ser_table {
+        margin-top: 15vh;
+        margin-left: -21.5vh;
+    }
+
+    .ser_table1 {
+        margin-top: 30.1vh;
+        margin-left: 7.1vh;
+    }
+
+    .service_table_resp {
+        margin-top: 45vh;
+        margin-left: 7vh;
+    }
+
+    .service_table_resp2 {
+        margin-top: 60vh;
+        margin-left: 7vh;
+    }
+
+    .cv_button {
+        margin-top: 49vh;
+        margin-left: 2.5vh;
+    }
+
+    footer {
+        padding-left: 12vh;
+    }
+
+}
+
